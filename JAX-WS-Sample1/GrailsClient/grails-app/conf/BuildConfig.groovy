@@ -47,9 +47,11 @@ grails.project.dependency.resolution = {
     }
 
     dependencies {
-        // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
-        // runtime 'mysql:mysql-connector-java:5.1.27'
-        // runtime 'org.postgresql:postgresql:9.3-1100-jdbc41'
+
+        compile 'in.pgupta.webservice:web-service-spec1:1.0-SNAPSHOT'
+        compile 'org.apache.cxf:cxf-rt-transports-http:3.0.2'
+        compile 'org.apache.cxf:cxf-rt-frontend-jaxws:3.0.2'
+        compile'org.apache.cxf:cxf-rt-frontend-jaxrs:3.0.2'
     }
 
     plugins {
